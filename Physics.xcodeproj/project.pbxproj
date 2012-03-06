@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93278E71505C3EC00D6C193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278E61505C3EC00D6C193 /* UIKit.framework */; };
+		F93278E91505C3EC00D6C193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278E81505C3EC00D6C193 /* Foundation.framework */; };
+		F93278EB1505C3EC00D6C193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278EA1505C3EC00D6C193 /* CoreGraphics.framework */; };
+		F93278F11505C3EC00D6C193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93278EF1505C3EC00D6C193 /* InfoPlist.strings */; };
+		F93278F31505C3EC00D6C193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93278F21505C3EC00D6C193 /* main.m */; };
+		F93278F71505C3EC00D6C193 /* PhysicWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93278F61505C3EC00D6C193 /* PhysicWorldAppDelegate.m */; };
+		F93278FA1505C3EC00D6C193 /* PhysicWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93278F91505C3EC00D6C193 /* PhysicWorldViewController.m */; };
+		F93278FD1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F93278FB1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib */; };
+		F93279001505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F93278FE1505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib */; };
+		F93279081505C3EC00D6C193 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93279071505C3EC00D6C193 /* SenTestingKit.framework */; };
+		F93279091505C3EC00D6C193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278E61505C3EC00D6C193 /* UIKit.framework */; };
+		F932790A1505C3EC00D6C193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278E81505C3EC00D6C193 /* Foundation.framework */; };
+		F93279121505C3EC00D6C193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93279101505C3EC00D6C193 /* InfoPlist.strings */; };
+		F93279151505C3EC00D6C193 /* PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93279141505C3EC00D6C193 /* PhysicsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F932790B1505C3EC00D6C193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93278D91505C3EC00D6C193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93278E11505C3EC00D6C193;
+			remoteInfo = Physics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F93278E21505C3EC00D6C193 /* Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93278E61505C3EC00D6C193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F93278E81505C3EC00D6C193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F93278EA1505C3EC00D6C193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F93278EE1505C3EC00D6C193 /* Physics-Info.plist */ = {isa = PBXFileReference; path = "Physics-Info.plist"; sourceTree = "<group>"; };
+		F93278F01505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F93278F21505C3EC00D6C193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F93278F41505C3EC00D6C193 /* Physics-Prefix.pch */ = {isa = PBXFileReference; path = "Physics-Prefix.pch"; sourceTree = "<group>"; };
+		F93278F51505C3EC00D6C193 /* PhysicWorldAppDelegate.h */ = {isa = PBXFileReference; path = PhysicWorldAppDelegate.h; sourceTree = "<group>"; };
+		F93278F61505C3EC00D6C193 /* PhysicWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicWorldAppDelegate.m; sourceTree = "<group>"; };
+		F93278F81505C3EC00D6C193 /* PhysicWorldViewController.h */ = {isa = PBXFileReference; path = PhysicWorldViewController.h; sourceTree = "<group>"; };
+		F93278F91505C3EC00D6C193 /* PhysicWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicWorldViewController.m; sourceTree = "<group>"; };
+		F93278FC1505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhysicWorldViewController_iPhone.xib; sourceTree = "<group>"; };
+		F93278FF1505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhysicWorldViewController_iPad.xib; sourceTree = "<group>"; };
+		F93279061505C3EC00D6C193 /* PhysicsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93279071505C3EC00D6C193 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F932790F1505C3EC00D6C193 /* PhysicsTests-Info.plist */ = {isa = PBXFileReference; path = "PhysicsTests-Info.plist"; sourceTree = "<group>"; };
+		F93279111505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F93279131505C3EC00D6C193 /* PhysicsTests.h */ = {isa = PBXFileReference; path = PhysicsTests.h; sourceTree = "<group>"; };
+		F93279141505C3EC00D6C193 /* PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93278DF1505C3EC00D6C193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93278E71505C3EC00D6C193 /* UIKit.framework in Frameworks */,
+				F93278E91505C3EC00D6C193 /* Foundation.framework in Frameworks */,
+				F93278EB1505C3EC00D6C193 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93279021505C3EC00D6C193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93279081505C3EC00D6C193 /* SenTestingKit.framework in Frameworks */,
+				F93279091505C3EC00D6C193 /* UIKit.framework in Frameworks */,
+				F932790A1505C3EC00D6C193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93278D71505C3EC00D6C193 = {
+			isa = PBXGroup;
+			children = (
+				F93278EC1505C3EC00D6C193 /* Physics */,
+				F932790D1505C3EC00D6C193 /* PhysicsTests */,
+				F93278E51505C3EC00D6C193 /* Frameworks */,
+				F93278E31505C3EC00D6C193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93278E31505C3EC00D6C193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93278E21505C3EC00D6C193 /* Physics.app */,
+				F93279061505C3EC00D6C193 /* PhysicsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93278E51505C3EC00D6C193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F93278E61505C3EC00D6C193 /* UIKit.framework */,
+				F93278E81505C3EC00D6C193 /* Foundation.framework */,
+				F93278EA1505C3EC00D6C193 /* CoreGraphics.framework */,
+				F93279071505C3EC00D6C193 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F93278EC1505C3EC00D6C193 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				F93278F51505C3EC00D6C193 /* PhysicWorldAppDelegate.h */,
+				F93278F61505C3EC00D6C193 /* PhysicWorldAppDelegate.m */,
+				F93278F81505C3EC00D6C193 /* PhysicWorldViewController.h */,
+				F93278F91505C3EC00D6C193 /* PhysicWorldViewController.m */,
+				F93278FB1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib */,
+				F93278FE1505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib */,
+				F93278ED1505C3EC00D6C193 /* Supporting Files */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		F93278ED1505C3EC00D6C193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93278EE1505C3EC00D6C193 /* Physics-Info.plist */,
+				F93278EF1505C3EC00D6C193 /* InfoPlist.strings */,
+				F93278F21505C3EC00D6C193 /* main.m */,
+				F93278F41505C3EC00D6C193 /* Physics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F932790D1505C3EC00D6C193 /* PhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93279131505C3EC00D6C193 /* PhysicsTests.h */,
+				F93279141505C3EC00D6C193 /* PhysicsTests.m */,
+				F932790E1505C3EC00D6C193 /* Supporting Files */,
+			);
+			path = PhysicsTests;
+			sourceTree = "<group>";
+		};
+		F932790E1505C3EC00D6C193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F932790F1505C3EC00D6C193 /* PhysicsTests-Info.plist */,
+				F93279101505C3EC00D6C193 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93278E11505C3EC00D6C193 /* Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93279181505C3EC00D6C193 /* Build configuration list for PBXNativeTarget "Physics" */;
+			buildPhases = (
+				F93278DE1505C3EC00D6C193 /* Sources */,
+				F93278DF1505C3EC00D6C193 /* Frameworks */,
+				F93278E01505C3EC00D6C193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physics;
+			productName = Physics;
+			productReference = F93278E21505C3EC00D6C193 /* Physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93279051505C3EC00D6C193 /* PhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F932791B1505C3EC00D6C193 /* Build configuration list for PBXNativeTarget "PhysicsTests" */;
+			buildPhases = (
+				F93279011505C3EC00D6C193 /* Sources */,
+				F93279021505C3EC00D6C193 /* Frameworks */,
+				F93279031505C3EC00D6C193 /* Resources */,
+				F93279041505C3EC00D6C193 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F932790C1505C3EC00D6C193 /* PBXTargetDependency */,
+			);
+			name = PhysicsTests;
+			productName = PhysicsTests;
+			productReference = F93279061505C3EC00D6C193 /* PhysicsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93278D91505C3EC00D6C193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Estamp World";
+			};
+			buildConfigurationList = F93278DC1505C3EC00D6C193 /* Build configuration list for PBXProject "Physics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F93278D71505C3EC00D6C193;
+			productRefGroup = F93278E31505C3EC00D6C193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93278E11505C3EC00D6C193 /* Physics */,
+				F93279051505C3EC00D6C193 /* PhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93278E01505C3EC00D6C193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93278F11505C3EC00D6C193 /* InfoPlist.strings in Resources */,
+				F93278FD1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib in Resources */,
+				F93279001505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93279031505C3EC00D6C193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93279121505C3EC00D6C193 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F93279041505C3EC00D6C193 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93278DE1505C3EC00D6C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93278F31505C3EC00D6C193 /* main.m in Sources */,
+				F93278F71505C3EC00D6C193 /* PhysicWorldAppDelegate.m in Sources */,
+				F93278FA1505C3EC00D6C193 /* PhysicWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93279011505C3EC00D6C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93279151505C3EC00D6C193 /* PhysicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F932790C1505C3EC00D6C193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93278E11505C3EC00D6C193 /* Physics */;
+			targetProxy = F932790B1505C3EC00D6C193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93278EF1505C3EC00D6C193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93278F01505C3EC00D6C193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F93278FB1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93278FC1505C3EC00D6C193 /* en */,
+			);
+			name = PhysicWorldViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F93278FE1505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93278FF1505C3EC00D6C193 /* en */,
+			);
+			name = PhysicWorldViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F93279101505C3EC00D6C193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93279111505C3EC00D6C193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93279161505C3EC00D6C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93279171505C3EC00D6C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93279191505C3EC00D6C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "Physics/Physics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F932791A1505C3EC00D6C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "Physics/Physics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F932791C1505C3EC00D6C193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F932791D1505C3EC00D6C193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93278DC1505C3EC00D6C193 /* Build configuration list for PBXProject "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93279161505C3EC00D6C193 /* Debug */,
+				F93279171505C3EC00D6C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93279181505C3EC00D6C193 /* Build configuration list for PBXNativeTarget "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93279191505C3EC00D6C193 /* Debug */,
+				F932791A1505C3EC00D6C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F932791B1505C3EC00D6C193 /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F932791C1505C3EC00D6C193 /* Debug */,
+				F932791D1505C3EC00D6C193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93278D91505C3EC00D6C193 /* Project object */;
+}
