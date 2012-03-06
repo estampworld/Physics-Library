@@ -8,7 +8,10 @@
 
 #import "PhysicWorldViewController.h"
 
+
 @implementation PhysicWorldViewController
+
+@synthesize myPhysicsWorld, myPig, floor;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +25,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [myPhysicsWorld StartWorld];
+    myPig.objectType = 1;
+    floor.objectType = 2;
+    [myPhysicsWorld addObject:myPig];
+    [myPhysicsWorld addObject:floor];
 }
 
 - (void)viewDidUnload
@@ -60,5 +68,7 @@
         return YES;
     }
 }
+
+
 
 @end

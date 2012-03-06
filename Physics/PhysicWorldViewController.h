@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PhysicsWorld.h"
+#import "movingObject.h"
 @interface PhysicWorldViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet PhysicsWorld *myPhysicsWorld;
+@property (nonatomic, retain) IBOutlet movingObject *myPig;
+@property (nonatomic, retain) IBOutlet movingObject *floor;
+
 
 @end

@@ -21,6 +21,10 @@
 		F932790A1505C3EC00D6C193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93278E81505C3EC00D6C193 /* Foundation.framework */; };
 		F93279121505C3EC00D6C193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93279101505C3EC00D6C193 /* InfoPlist.strings */; };
 		F93279151505C3EC00D6C193 /* PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93279141505C3EC00D6C193 /* PhysicsTests.m */; };
+		F93279241505C71700D6C193 /* movingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F93279231505C71700D6C193 /* movingObject.m */; };
+		F93279271505CBD700D6C193 /* PhysicsWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = F93279261505CBD700D6C193 /* PhysicsWorld.m */; };
+		F93279291505CE1F00D6C193 /* pig-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F93279281505CE1F00D6C193 /* pig-01.png */; };
+		F932792B1505D4FA00D6C193 /* background-03.png in Resources */ = {isa = PBXBuildFile; fileRef = F932792A1505D4FA00D6C193 /* background-03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,28 @@
 		F93278E61505C3EC00D6C193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F93278E81505C3EC00D6C193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F93278EA1505C3EC00D6C193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F93278EE1505C3EC00D6C193 /* Physics-Info.plist */ = {isa = PBXFileReference; path = "Physics-Info.plist"; sourceTree = "<group>"; };
+		F93278EE1505C3EC00D6C193 /* Physics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Physics-Info.plist"; sourceTree = "<group>"; };
 		F93278F01505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F93278F21505C3EC00D6C193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F93278F41505C3EC00D6C193 /* Physics-Prefix.pch */ = {isa = PBXFileReference; path = "Physics-Prefix.pch"; sourceTree = "<group>"; };
-		F93278F51505C3EC00D6C193 /* PhysicWorldAppDelegate.h */ = {isa = PBXFileReference; path = PhysicWorldAppDelegate.h; sourceTree = "<group>"; };
+		F93278F41505C3EC00D6C193 /* Physics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Physics-Prefix.pch"; sourceTree = "<group>"; };
+		F93278F51505C3EC00D6C193 /* PhysicWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicWorldAppDelegate.h; sourceTree = "<group>"; };
 		F93278F61505C3EC00D6C193 /* PhysicWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicWorldAppDelegate.m; sourceTree = "<group>"; };
-		F93278F81505C3EC00D6C193 /* PhysicWorldViewController.h */ = {isa = PBXFileReference; path = PhysicWorldViewController.h; sourceTree = "<group>"; };
+		F93278F81505C3EC00D6C193 /* PhysicWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicWorldViewController.h; sourceTree = "<group>"; };
 		F93278F91505C3EC00D6C193 /* PhysicWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicWorldViewController.m; sourceTree = "<group>"; };
 		F93278FC1505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhysicWorldViewController_iPhone.xib; sourceTree = "<group>"; };
 		F93278FF1505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhysicWorldViewController_iPad.xib; sourceTree = "<group>"; };
 		F93279061505C3EC00D6C193 /* PhysicsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93279071505C3EC00D6C193 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F932790F1505C3EC00D6C193 /* PhysicsTests-Info.plist */ = {isa = PBXFileReference; path = "PhysicsTests-Info.plist"; sourceTree = "<group>"; };
+		F932790F1505C3EC00D6C193 /* PhysicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsTests-Info.plist"; sourceTree = "<group>"; };
 		F93279111505C3EC00D6C193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F93279131505C3EC00D6C193 /* PhysicsTests.h */ = {isa = PBXFileReference; path = PhysicsTests.h; sourceTree = "<group>"; };
+		F93279131505C3EC00D6C193 /* PhysicsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsTests.h; sourceTree = "<group>"; };
 		F93279141505C3EC00D6C193 /* PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsTests.m; sourceTree = "<group>"; };
+		F93279221505C71700D6C193 /* movingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movingObject.h; sourceTree = "<group>"; };
+		F93279231505C71700D6C193 /* movingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movingObject.m; sourceTree = "<group>"; };
+		F93279251505CBD700D6C193 /* PhysicsWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsWorld.h; sourceTree = "<group>"; };
+		F93279261505CBD700D6C193 /* PhysicsWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsWorld.m; sourceTree = "<group>"; };
+		F93279281505CE1F00D6C193 /* pig-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pig-01.png"; sourceTree = "<group>"; };
+		F932792A1505D4FA00D6C193 /* background-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,8 @@
 		F93278D71505C3EC00D6C193 = {
 			isa = PBXGroup;
 			children = (
+				F93279281505CE1F00D6C193 /* pig-01.png */,
+				F932792A1505D4FA00D6C193 /* background-03.png */,
 				F93278EC1505C3EC00D6C193 /* Physics */,
 				F932790D1505C3EC00D6C193 /* PhysicsTests */,
 				F93278E51505C3EC00D6C193 /* Frameworks */,
@@ -119,6 +131,10 @@
 				F93278F91505C3EC00D6C193 /* PhysicWorldViewController.m */,
 				F93278FB1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib */,
 				F93278FE1505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib */,
+				F93279251505CBD700D6C193 /* PhysicsWorld.h */,
+				F93279261505CBD700D6C193 /* PhysicsWorld.m */,
+				F93279221505C71700D6C193 /* movingObject.h */,
+				F93279231505C71700D6C193 /* movingObject.m */,
 				F93278ED1505C3EC00D6C193 /* Supporting Files */,
 			);
 			path = Physics;
@@ -228,6 +244,8 @@
 				F93278F11505C3EC00D6C193 /* InfoPlist.strings in Resources */,
 				F93278FD1505C3EC00D6C193 /* PhysicWorldViewController_iPhone.xib in Resources */,
 				F93279001505C3EC00D6C193 /* PhysicWorldViewController_iPad.xib in Resources */,
+				F93279291505CE1F00D6C193 /* pig-01.png in Resources */,
+				F932792B1505D4FA00D6C193 /* background-03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +283,8 @@
 				F93278F31505C3EC00D6C193 /* main.m in Sources */,
 				F93278F71505C3EC00D6C193 /* PhysicWorldAppDelegate.m in Sources */,
 				F93278FA1505C3EC00D6C193 /* PhysicWorldViewController.m in Sources */,
+				F93279241505C71700D6C193 /* movingObject.m in Sources */,
+				F93279271505CBD700D6C193 /* PhysicsWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
